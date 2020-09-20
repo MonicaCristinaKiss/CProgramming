@@ -16,7 +16,7 @@ int main() {
 	}else if (isdigit(a)) {
 		printf("%c is a number.\n",a);
 	}else {
-		printf("%c is WTF is that?\n",a);
+		printf("%c is a special character.\n",a);
 	}
 return 0;
 }
