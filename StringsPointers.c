@@ -4,13 +4,16 @@
 
 int main() {
 	char prop1[]="Ana are mere.";
-	// propozitie="Monica are mere."; - eroare, prop1 e pointer
-	// propozitie[]="Monica are mere."; - eroare
+	// prop1="Monica are mere."; - eroare, prop1 e pointer
+	// prop1[]="Monica are mere."; - eroare
 	strcpy(prop1,"Monica are mere.");
 	prop1[11]='p';
 	printf("prop1\t%s\t%p\n", prop1,prop1);
 	printf("prop1[0]\t%c\t%p\n",prop1[0],prop1[0]);
 	printf ("p,&prop1[0]\t%p\n",&prop1[0]);
+	puts("propozitie1:");
+	fgets(prop1, 30, stdin);
+	puts(prop1);
 	
 	char *prop2="Oana are stilou.";
 	printf ("\ns,prop2\t\t%s\n",prop2);
