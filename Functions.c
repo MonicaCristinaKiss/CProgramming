@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void printSomething();
+void printSomething(); //prototype
 int a=6; //global variable
 
 int main() {
