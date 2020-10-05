@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-float convertToEuro(float lei);
+float convertToEuro(float lei); //OR float convertToEuro(float); PROTOTYPE
 
 int main() {
 	float lei1;
